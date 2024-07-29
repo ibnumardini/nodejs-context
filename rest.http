@@ -1,0 +1,13 @@
+@host = http://localhost:3000
+
+### Hello World - Request Id
+
+GET {{host}}
+
+### Prop Drilling
+
+GET {{host}}/prop-drilling
+
+### Context
+
+GET {{host}}/context
